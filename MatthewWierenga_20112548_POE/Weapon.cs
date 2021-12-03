@@ -14,8 +14,9 @@ namespace MatthewWierenga_20112548_POE
         protected int durability;
         protected int cost;
         protected string weaponType;
+        private string symbol;
 
-        public Weapon(int damage, int range, int durability, int cost, string weaponType)
+        public Weapon(int damage, int range, int durability, int cost, string weaponType, string symbol)
         {
             this.damage = damage;
             this.range = range;
@@ -59,6 +60,12 @@ namespace MatthewWierenga_20112548_POE
             get { return weaponType; }
             set { weaponType = value; }
         }
+        
+        public string SYMBOL
+        {
+            get { return symbol; }
+            set { symbol = value; }
+        }
     }
 
 
@@ -75,7 +82,7 @@ namespace MatthewWierenga_20112548_POE
         
     {
       
-        public MeleeWeapon(int damage, int range, int durability, int cost, string weaponType) : base(damage, range, durability, cost, weaponType)
+        public MeleeWeapon(int damage, int range, int durability, int cost, string weaponType, string symbol) : base(damage, range, durability, cost, weaponType, string symbol)
         {
             range = 1;
 
@@ -84,6 +91,7 @@ namespace MatthewWierenga_20112548_POE
                 damage = 3;
                 durability = 10;
                 cost = 3;
+                symbol = "D";
             }
 
             if(weaponType=="Longsword")
@@ -91,6 +99,7 @@ namespace MatthewWierenga_20112548_POE
                 damage = 4;
                 durability = 6;
                 cost = 5;
+                symbol = "LS";
             }
 
         }
@@ -107,7 +116,7 @@ namespace MatthewWierenga_20112548_POE
     }
     class RangeWeapon : Weapon
     {
-        public RangeWeapon(int damage, int range, int durability, int cost, string weaponType) : base(damage, range, durability, cost, weaponType)
+        public RangeWeapon(int damage, int range, int durability, int cost, string weaponType, string symbol) : base(damage, range, durability, cost, weaponType, string symbol)
         {
             if(weaponType == "Longbow")
             {
@@ -115,6 +124,8 @@ namespace MatthewWierenga_20112548_POE
                 range = 2;
                 durability = 4;
                 cost = 6;
+                symbol = "LB";
+                
             }
 
             if(weaponType =="Rifle")
@@ -123,6 +134,7 @@ namespace MatthewWierenga_20112548_POE
                 range = 2;
                 durability = 4;
                 cost = 7;
+                symbol = "R";
             }
 
 
