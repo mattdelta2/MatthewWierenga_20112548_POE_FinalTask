@@ -62,34 +62,29 @@ namespace MatthewWierenga_20112548_POE
     }
 
 
+    enum Types
+    {
+        Dagger,
+        Longsword
+    };
+
+
     internal class MeleeWeapon : Weapon
+
+        
         
     {
+      
         public MeleeWeapon(int damage, int range, int durability, int cost, string weaponType) : base(damage, range, durability, cost, weaponType)
         {
-            range = 1;
-           
+            range = 1;  
 
 
         }
 
-        enum Types
-        {
-            Dagger,
-            Longsword
-        }
-
-
-        
-
-
-
-
-        
-
-
-        
     }
+
+       
 
 
     class RangeWeapon : Weapon
