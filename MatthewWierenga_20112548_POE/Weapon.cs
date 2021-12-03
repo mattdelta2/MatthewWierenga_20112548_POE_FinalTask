@@ -82,7 +82,7 @@ namespace MatthewWierenga_20112548_POE
         
     {
       
-        public MeleeWeapon(int damage, int range, int durability, int cost, string weaponType, string symbol) : base(damage, range, durability, cost, weaponType, string symbol)
+        public MeleeWeapon(int damage, int range, int durability, int cost, string weaponType, string symbol) : base(damage, range, durability, cost, weaponType, symbol)
         {
             range = 1;
 
@@ -116,7 +116,7 @@ namespace MatthewWierenga_20112548_POE
     }
     class RangeWeapon : Weapon
     {
-        public RangeWeapon(int damage, int range, int durability, int cost, string weaponType, string symbol) : base(damage, range, durability, cost, weaponType, string symbol)
+        public RangeWeapon(int damage, int range, int durability, int cost, string weaponType, string symbol) : base(damage, range, durability, cost, weaponType, symbol)
         {
             if(weaponType == "Longbow")
             {
