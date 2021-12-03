@@ -46,5 +46,27 @@ namespace MatthewWierenga_20112548_POE
         }
     }
 
+    class MeleeWeapon : Weapon
+    {
+        enum MeleeWeapons
+        {
+            Dagger,
+            Longsword
+        }
 
+        
+
+
+        
+    }
+
+
+    class RangeWeapon: Weapon
+    {
+        enum RangeWeapons
+        {
+            LongBow,
+            Rifle
+        }
+    }
 }
