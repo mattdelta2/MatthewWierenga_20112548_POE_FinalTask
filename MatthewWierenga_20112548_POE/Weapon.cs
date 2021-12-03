@@ -77,26 +77,57 @@ namespace MatthewWierenga_20112548_POE
       
         public MeleeWeapon(int damage, int range, int durability, int cost, string weaponType) : base(damage, range, durability, cost, weaponType)
         {
-            range = 1;  
+            range = 1;
 
+            if (weaponType == "Dagger")
+            {
+                damage = 3;
+                durability = 10;
+                cost = 3;
+            }
+
+            if(weaponType=="Longsword")
+            {
+                damage = 4;
+                durability = 6;
+                cost = 5;
+            }
 
         }
+        
 
     }
 
-       
 
 
+    enum Type
+    {
+        LongBow,
+        Rifle
+    }
     class RangeWeapon : Weapon
     {
         public RangeWeapon(int damage, int range, int durability, int cost, string weaponType) : base(damage, range, durability, cost, weaponType)
         {
+            if(weaponType == "Longbow")
+            {
+                damage = 4;
+                range = 2;
+                durability = 4;
+                cost = 6;
+            }
+
+            if(weaponType =="Rifle")
+            {
+                damage = 4;
+                range = 2;
+                durability = 4;
+                cost = 7;
+            }
+
+
         }
 
-        enum RangeWeapons
-        {
-            LongBow,
-            Rifle
-        }
+
     }
 }
