@@ -45,4 +45,6 @@ namespace MatthewWierenga_20112548_POE
             set { weaponType = value; }
         }
     }
+
+
 }
