@@ -1,0 +1,5 @@
+E:\Vega\Semester 2\Programming\MatthewWierenga_20112548_POE\MatthewWierenga_20112548_POE\obj\Debug\net5.0-windows\MatthewWierenga_20112548_POE.csprojAssemblyReference.cache
+E:\Vega\Semester 2\Programming\MatthewWierenga_20112548_POE\MatthewWierenga_20112548_POE\obj\Debug\net5.0-windows\MatthewWierenga_20112548_POE.GeneratedMSBuildEditorConfig.editorconfig
+E:\Vega\Semester 2\Programming\MatthewWierenga_20112548_POE\MatthewWierenga_20112548_POE\obj\Debug\net5.0-windows\MatthewWierenga_20112548_POE.AssemblyInfoInputs.cache
+E:\Vega\Semester 2\Programming\MatthewWierenga_20112548_POE\MatthewWierenga_20112548_POE\obj\Debug\net5.0-windows\MatthewWierenga_20112548_POE.AssemblyInfo.cs
+E:\Vega\Semester 2\Programming\MatthewWierenga_20112548_POE\MatthewWierenga_20112548_POE\obj\Debug\net5.0-windows\MatthewWierenga_20112548_POE.csproj.CoreCompileInputs.cache
